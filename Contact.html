@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio website</title>
+        <style>
+            html body {
+                background-image: url("hacker25.jpg");
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container {
+                width: 100%;
+                max-width: 1200px;
+                padding: 15px;
+            }
+            .main-header{
+                background-image: url("hacker25.jpg");
+                padding-bottom: 20px;
+                justify-content: center;
+            }
+            .main-header li {
+                display: inline-block;
+
+            }
+            .main-header li a {
+                padding: 8px 10px;
+                color: black;
+                background-color: grey;
+                font-family: poppins;
+                text-align: center;
+                font-size: 26px;
+            }
+            .main-header li a:hover {
+                background: #fff;
+                color: blueviolet;
+                text-align-last: right;
+                padding: 10px;
+            }
+            h1 {
+                text-align: center;
+                margin: 0;
+                padding: 1px;
+                background-color: khaki;
+            }
+            h2 {
+                margin: 0;
+                padding: 1px;
+                font-family: serif;  
+                font-display: 300px;
+                font-size: 30px;
+                background-color: chartreuse;
+                text-align: center;
+                align-items: center;
+                padding-bottom: 1px;
+                padding-top: 1px;
+                
+            }
+            form div {
+                justify-content: center;
+                align-content: center;
+                padding: 5px;
+                border: 30pc;
+                color: black;
+                background-color: blueviolet;
+                max-width: 500px;
+                margin: auto;
+                padding-bottom: 10px;
+                
+            }
+            
+        </style>
+    </head>
+
+<body>
+    <header class="main-header">
+        <nav>
+                <ul align="left">
+                    <br><br>
+                    <li><a href="Portfoliowebsite.html">Home</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+        <h1> Welcome to My Portfolio Page</h1>
+        <h2> <b><u>Please Contact Me</u></b></h2>
+        <form>
+        <div>
+            <label for="firstname">Enter First Name : </label> <input type="text" id="firstname" name="firstname">
+            <br>
+            <br>
+            <label for="lastname">Enter Last Name : </label> <input type="text" id="lastname" name="lastname">
+            <br>
+            <br>
+            <label for="birthday">Enter Your Birthday : </label> <input type="text" id="birthday" name="birthday">
+            <br>
+            <br>
+            <label for="message">Type Message : </label> <br><textarea id="message" name="message" rows="5" cols="40"></textarea>
+            <br>
+        </div>
+           <div> 
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <br>
+            <label for="radio"> Choose a county : </label>
+            </div>
+
+        <div>
+            <select id="county" name="county">
+                <option value="-------"> ---Options-----</option>
+                <option value="Monst">Monsterrado County</option>
+                <option value="Bom">Bomi County</option>
+                <option value="Bon">Bong County</option>
+                <option value="Maryl">Maryland County</option>
+                <option value="GCM">Grand Cape Mount County</option>
+            </select>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="soups" value="soups">Okro Soup
+            <input type="checkbox" name="soups" value="soups">Palaver Sauce
+            <input type="checkbox" name="soups" value="soups">Cabbage Stew
+            <input type="checkbox" name="soups" value="soups">Torborgee Soup
+            <br><input type="checkbox" name="soups" value="soups">Potato Greens
+        </div>
+        
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        
+        </form>
+
+    </body>
+
+</html>
