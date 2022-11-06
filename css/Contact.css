@@ -1,0 +1,216 @@
+
+body{
+    background-color: blue;
+    height: 200px;
+}
+nav{
+    width: 100%;
+    height: 20%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+}
+nav ul{
+    font-size: 14px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    padding: 7px 13px;
+    text-decoration: none;
+    justify-items: baseline;
+
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+
+.main{
+    margin-top: 5px;
+    background-color: rgb(28, 199, 199);
+    width: 100%;
+    height: 458px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+section{
+    /* background-color: black; */
+    width: 100%;
+    height: 70vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+section .inform{
+    margin-left: 100px;
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.all{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 50px;
+}
+.image{
+    margin-left: 50px;
+}
+button{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.image button i:hover{
+    color: blue;
+    background-color: white;
+}
+.address > div{
+    margin-left: 5px;
+    text-align: left;
+}
+.address .location{
+    font-size: 25px;
+    font-weight: bold;
+}
+.group{
+    
+    margin-top: 30px;
+    /* background-color:green; */
+    width: 100%;
+    height: 180px;
+}
+.group .social{
+    text-decoration: underline;
+    text-shadow: 0px 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.group .links i{
+   margin-top: 15px;
+   justify-content: space-between;
+}
+section form{
+    /* background-color: palegreen; */
+    width: 40%;
+    height: 70vh;
+    justify-content: center;
+    text-align: left;
+    font-size: 25px;
+    border: none;
+    overflow-y: scroll;
+    margin-left: 50px;
+}
+article{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+form > div{
+    margin: 10px;
+}
+form input{
+    width: 65%;
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+}
+
+form .first{
+    width: 100%;
+}
+form .middle{
+    width: 100%;
+}
+form .last{
+    width: 100%;
+}
+form .email{
+    width: 100%;
+}
+form .subject{
+    width: 100%;
+}
+form .message{
+    width: 100%;
+    height: 70px;
+}
+form div button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+form div:hover{
+    color: white;
+}
+form div button:hover{
+    color: white;
+}
+footer{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: baseline;
+    outline: none;
+    text-decoration: none;
+}
+.footer1{
+    margin-left: 450px;
+    width: 10%;
+    height: 60%;
+}
+.footer1 .link{
+    margin-top: 10px;
+}
+.footer1 .link a{
+    outline: none;
+    text-decoration: none;
+}
+.footer2{
+    outline: none;
+    text-decoration: none;
+    width: 15%;
+    height: 60%;
+}
+.footer2 .service{
+    margin-top: 10px;
+}
+.footer2 .service a{
+    outline: none;
+    text-decoration: none;
+}
+.footer3{
+     outline: none;
+    text-decoration: none;
+    width: 30%;
+    height: 60%;
+}
+.footer3 .skill{
+    margin-top: 5px;
+}
+.footer3 .skill a{
+    outline: none;
+    text-decoration: none;
+}
